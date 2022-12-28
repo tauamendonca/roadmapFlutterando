@@ -1,6 +1,12 @@
-# Flutter Roadmap 2022
+# Flutter Roadmap 2023
+## Powered by 
+<img src='https://miro.medium.com/max/1134/1*CTBedeQiWb4-75peW1IF3w.png' height=60>
+
+<br>
 
 O objetivo desse repositório é catalogar os conteúdos existentes na internet sobre Flutter e concatenar em uma espécie de "roadmap" para auxiliar os iniciantes.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BTENKdRVS2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Escrever códigos
 
