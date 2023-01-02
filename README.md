@@ -1,21 +1,48 @@
 # Flutter Roadmap 2023
-## Powered by 
+### Powered by 
+
 <img src='https://miro.medium.com/max/1134/1*CTBedeQiWb4-75peW1IF3w.png' height=60>
 
 <br>
 
-O objetivo desse repositório é catalogar os conteúdos existentes na internet sobre Flutter e concatenar em uma espécie de "roadmap" para auxiliar os iniciantes.
+Esse repositório é um roadmap, uma trilha orientativa, especialmente focada para o aprendizado de Dart e Flutter desde sua base. 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BTENKdRVS2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Seu objetivo é sugerir um caminho para os iniciantes a partir do conhecimento da comunidade e de todos que participam da mesma. 
 
-# Escrever códigos
+É necessário observar que o Roadmap, como qualquer outro roadmap, não substitui cursos e a busca de conhecimento individual. Há muito o que aprender sobre Flutter e é impossível reunir todo o material disponível em um só local.  
 
-É recomendado assistir [ESTE VÍDEO](https://www.youtube.com/watch?v=BTENKdRVS2U) antes de iniciar.
+Ainda assim recomendamos essas sugestões do roadmap, em conjunto com a documentação do Dart e do Flutter, por ser um caminho comprovado e que já formou diversas pessoas.  
 
-### IDE'S Online
+<br>
 
-- [DARTPAD](https://dartpad.dev/?)
+### **SUMÁRIO**
 
+//Colocar aqui um sumário
+
+1 - Preparando suas bases
+1.1 - O Ambiente de Trabalho
+1.2 - Lógica de Programação
+1.3 - 
+
+<br>
+
+## **Preparando suas bases**
+
+Esteja você começando agora ou tendo já um mínimo de conhecimento sobre o que é programação, ainda assim é importante trabalhar seus conhecimentos básicos. 
+
+Recomendamos primeiramente assistir [o vídeo abaixo](https://www.youtube.com/watch?v=BTENKdRVS2U) antes de iniciar, especialmente se você é uma pessoa novata na programação em geral.
+
+[![Código Fonte TV](https://img.youtube.com/vi/BTENKdRVS2U/maxresdefault.jpg)](https://www.youtube.com/watch?v=BTENKdRVS2U)
+
+## Preparação do Ambiente de Trabalho
+
+O que é uma IDE
+
+Recomendamos usar o `Dartpad` inicialmente, online, no install needed etc
+
+[Clique aqui para acessar o Dartpad](https://dartpad.dev/?)
+
+Outra IDE útil no início e depois é o `Zapp.run`, similar a uma mistura do Dartpad com o Visual Studio Code, ela é capaz de 
 ## Lógica de Programação
 
 Precisamos entender como criar algorítmos, por tanto, antes de realmente colocar a mão no código, é importante estudar um pouco sobre Lógica de programação.
@@ -47,7 +74,10 @@ Assista primeiro:
 - [Por que o Flutter usa o Dart (Ative as legendas)](https://www.youtube.com/watch?v=5F-6n_2XWR8)
 - [Dart (a linguagem do Flutter) em 50 minutos](https://www.youtube.com/watch?v=NZNO6xW5icQ)
 
-É importante ressaltar que o Dart sofreu mudanças consideráveis na segunda metade de 2021, por tanto, não é recomendado para iniciantes os cursos gravados antes de julho de 2021.
+https://www.youtube.com/watch?v=NrO0CJCbYLA
+
+É importante ressaltar que o Dart sofreu mudanças consideráveis na segunda metade de 2021, por tanto, não é recomendado para iniciantes os cursos gravados antes de julho de 2021. Além disso, há mudanças previstas 2023, tanto em Dart quanto em Flutter. Atualizaremos o roadmap conforme estas forem ocorrendo. 
+
 
 **CURSOS GRATUITOS**:
 
@@ -103,6 +133,10 @@ Git é essencial para um desenvolvedor.
 - [Trabalhando com FORKS no GIT e GITHUB!](https://www.youtube.com/watch?v=osE-7OXqFCI)
 
 ## Flutter Widget
+
+https://www.youtube.com/watch?v=lHhRhPV--G0
+
+https://www.youtube.com/watch?v=I9ceqw5Ny-4
 
 - [Flutter Widget of the Week](https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG)
 
@@ -193,6 +227,8 @@ Padrões de projetos sÃo importantes para o trabalho em equipe.
 ## Gerência de estado
 
 O StatefulWidget concede ao Widget a possibilidade de gerenciar o próprio estado. Mas as vezes é necessário mudar o estado de vários widgets em uma ação. Para isso, existe alguns padrões para auxiliar nisso.
+
+https://www.youtube.com/watch?v=3tm-R7ymwhc
 
 - [AULÃO sobre gerência de estado (Flutterando)](https://www.youtube.com/watch?v=_F0GI2dnt-g)
 - [ValueNotifier. A reatividade mais rápida do Flutter](https://www.youtube.com/watch?v=S1PgnMqVgsM)
