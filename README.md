@@ -1,49 +1,84 @@
 # Flutter Roadmap 2023
+
+<i>V. 2.0.0 - Janeiro 2023</i>
 ### Powered by 
 
 <img src='https://miro.medium.com/max/1134/1*CTBedeQiWb4-75peW1IF3w.png' height=60>
 
 <br>
 
-Esse repositório é um roadmap, uma trilha orientativa, especialmente focada para o aprendizado de Dart e Flutter desde sua base. 
+## **`1.` Sobre o Roadmap**
+<details open><Summary><i>[Ocultar o conteúdo]</i></Summary>
+</p>
 
-Seu objetivo é sugerir um caminho para os iniciantes a partir do conhecimento da comunidade e de todos que participam da mesma. 
+O roadmap é uma trilha orientativa com o objetivo de `sugerir um caminho para os iniciantes em Dart e Flutter` a partir do conhecimento da comunidade de conteúdos gratuitos disponíveis na internet.  
 
-É necessário observar que o Roadmap, como qualquer outro roadmap, não substitui cursos e a busca de conhecimento individual. Há muito o que aprender sobre Flutter e é impossível reunir todo o material disponível em um só local.  
+É necessário observar que somente utilizar o Roadmap `NÃO` substitui as documentações e cursos, ou mesmo pesquisa e estudo individual. Seu intuito é somente guiar.  
 
-Ainda assim recomendamos essas sugestões do roadmap, em conjunto com a documentação do Dart e do Flutter, por ser um caminho comprovado e que já formou diversas pessoas.  
+Dito isto, a Flutterando traz essas recomendações e sugere sua utilização em conjunto com a documentação do Dart e do Flutter, por ser um caminho comprovado, que forma e já formou profissionais da área com grande sucesso.
+</p>
 
-<br>
-
-### **SUMÁRIO**
-
-//Colocar aqui um sumário
-
-1 - Preparando suas bases
-1.1 - O Ambiente de Trabalho
-1.2 - Lógica de Programação
-1.3 - 
+</details>
 
 <br>
 
-## **Preparando suas bases**
+## **`2.` O Roadmap em imagem**
 
+## **`3.` Preparando suas bases**
+
+<details><Summary><i>[Ver o conteúdo]</i></Summary>
+</p>
 Esteja você começando agora ou tendo já um mínimo de conhecimento sobre o que é programação, ainda assim é importante trabalhar seus conhecimentos básicos. 
 
 Recomendamos primeiramente assistir [o vídeo abaixo](https://www.youtube.com/watch?v=BTENKdRVS2U) antes de iniciar, especialmente se você é uma pessoa novata na programação em geral.
 
 [![Código Fonte TV](https://img.youtube.com/vi/BTENKdRVS2U/maxresdefault.jpg)](https://www.youtube.com/watch?v=BTENKdRVS2U)
 
-## Preparação do Ambiente de Trabalho
+</p>
 
-O que é uma IDE
+</details>
 
-Recomendamos usar o `Dartpad` inicialmente, online, no install needed etc
+<br>
 
-[Clique aqui para acessar o Dartpad](https://dartpad.dev/?)
+## `3.1` Ambiente de Trabalho
 
-Outra IDE útil no início e depois é o `Zapp.run`, similar a uma mistura do Dartpad com o Visual Studio Code, ela é capaz de 
-## Lógica de Programação
+<details><Summary><i>[Ver o conteúdo]</i></Summary>
+</p>
+
+### `3.1.1` O que é uma IDE?
+A IDE é onde você irá fazer seus códigos. Para entender um pouco mais sobre o que é uma IDE dê uma olhada neste [artigo da Codeesh](https://coodesh.com/blog/dicionario/o-que-e-ide/).
+
+#### **IDEs online prontas para uso:**
+Algumas IDEs online podem te ajudar a começar seus estudos sem necessitar instalar as ferramentas necessárias para desenvolver na sua máquina. São elas: 
+
+<details><Summary>Dartpad</Summary>
+Recomendamos começar com a IDE online [Dartpad](https://www.dartpad.dev), por ser acessível em quase qualquer navegador e ter toda a capacidade necessária para seu início de estudos. Ela é capaz de trabalhar com Dart E com Flutter, embora algumas bibliotecas (códigos externos) não estejam disponíveis para uso. 
+</details>
+
+<details><Summary>Zapp.run</Summary>
+Outra IDE online útil no início e depois é o [Zapp.run](https://zapp.run), similar a uma mistura do Dartpad com o Visual Studio Code, e capaz de emular seus projetos Flutter. No entanto, perceba que ele é melhor utilizado com uma boa conexão à internet e tem algumas limitações se comparados a uma IDE mais completa como o Visual Studio Code. 
+</details>
+
+#### **IDE Recomendada**
+Para trabalhar no dia a dia com desenvolvimento geral (Android, Web, Linux, Windows, embarcados - Arm, etc) recomendamos o 
+[Visual Studio Code](https://code.visualstudio.com/) - por ser mais leve e ter diversos recursos extras que podem auxiliar no desenvolvimento, além de ter grande liberdade para personalização. 
+
+No entanto, para trabalhar com Macs e Iphones você deverá utilizar o XCode e um Mac para nas últimas etapas do desenvolvimento do seu app. Entenda que isso é uma necessidade de hardware, mas o código em si não sofre muitas alterações, e é possível aprender a base e preparar o código utilizando somente um computador com outra plataforma (seja Windows ou Linux).
+
+
+<br>
+
+### `3.1.2` Instalando Dart e Flutter na sua máquina
+
+<!-- Fazer um checklist com os links de instalação e um passo a passo simples  -->
+
+</p>
+
+</details>
+
+<br>
+
+## `3.2` Lógica de Programação
 
 Precisamos entender como criar algorítmos, por tanto, antes de realmente colocar a mão no código, é importante estudar um pouco sobre Lógica de programação.
 
@@ -52,7 +87,11 @@ Nessa etapa não é necessário saber nenhuma linguagem.
 - [Curso de lógica de programação](https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV).
 - [Curso Lógica de Programação Completo 2021](https://www.youtube.com/watch?v=iF2MdbrTiBM)
 
-## Orientação a Objetos (POO)
+
+
+<br>
+
+## `2.3` Orientação a Objetos (POO)
 
 Esse é o paradgma mais utilizado no Flutter. Por isso devemos conhecer o básico para iniciar nesse framework.
 
@@ -64,9 +103,11 @@ Não tenha medo de apren-der 2 ou 3 linguagens a mais para dominar esse paradgma
 - [Programação Orientada a Objetos (POO)](https://www.youtube.com/watch?v=QY0Kdg83orY)
 - [Curso de programação oriendada a objetos](https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
 
-## O Dart
+## `6.` Dart
 
-Após entender mais sobre Lógica de Programação, devemos focar na linguagem principal do Flutter, o Dart.
+Dart é a [linguagem de programação]() por trás do [framework]() Flutter.
+
+Sem saber utilizar Dart poucas serão as chances de  
 
 Assista primeiro:
 
@@ -76,7 +117,7 @@ Assista primeiro:
 
 https://www.youtube.com/watch?v=NrO0CJCbYLA
 
-É importante ressaltar que o Dart sofreu mudanças consideráveis na segunda metade de 2021, por tanto, não é recomendado para iniciantes os cursos gravados antes de julho de 2021. Além disso, há mudanças previstas 2023, tanto em Dart quanto em Flutter. Atualizaremos o roadmap conforme estas forem ocorrendo. 
+É importante ressaltar que o Dart sofreu mudanças consideráveis na segunda metade de 2021, e receberá mudanças a partir do dia 25 de Janeiro (previsto), por tanto, não é recomendado para iniciantes os cursos gravados antes de julho de 2021. Atualizaremos o roadmap conforme estas forem ocorrendo, mas sigam a [documentação do Dart](https://dart.dev/guides) pois esta sempre estará atualizada. 
 
 
 **CURSOS GRATUITOS**:
@@ -108,16 +149,25 @@ Após seguir os passos da sessão anterior, chegou a hora de usar as ferramentas
 - [Flutter para iniciantes](https://masterclass.flutterando.com.br/flutter-iniciante-2)
 - [Curso de Flutter (COD3R)](https://flutterando.page.link/rniX)
 
-# Roadmap
 
-Nesta sessão, iremos sugerir uma sequência de assuntos que um desenvolvedor Flutter deve dominar:
+## Lógica de programação
 
-## POO e Lógica de programação
+## POO e 
 
 O Flutter usa o Dart de forma declarativa. Isso significa que o desenvolvedor usa linguagem de programação para desenhar telas em vez de linguagem de marcação como HTML, XML ou XAML.
 Por esse motivo é recomendado que o desenvolvedor já domine os conceitos de POO e Lógica de programação.
 
 Retorne a sessão [Escrever Códigos](#escrever-códigos) para dicas de cursos sobre esses dois assuntos.
+
+## 5. `GIT`
+
+Git é um sistema de controle de versões que pode ser utilizado para registrar o histórico de edições de qualquer tipo de arquivo. Pense em algo como um "Save Point" em um jogo ou como o botão Salvar, mas guardando o que foi modificado e por quem foi. O conteúdo abaixo irá ajudá-lo a compreender melhor o que é e como usá-lo. 
+Consideramos importante saber isto antes de começar para que você possa utilizá-lo durante seus estudos.
+
+- [Git para desenvolvedores Flutter](https://www.youtube.com/watch?v=Kx3M6XUpcFE)
+- [Trabalhando com FORKS no GIT e GITHUB!](https://www.youtube.com/watch?v=osE-7OXqFCI)
+
+P.S.: Não confunda Git com Github ou Gitlab. Esses dois últimos são - de forma básica - plataformas onde você pode utilizar Git para guardar seus projetos.
 
 ## Sintaxe do Dart
 
@@ -125,12 +175,7 @@ Antes de usar o Flutter, o desenvolvedor deverá aprender pelomenos a sintaxe b�
 
 [Nesta sessão](#o-dart) foi sugerido alguns cursos pagos e gratuitos para uma imersão na linguagem Dart.
 
-## Aprenda GIT.
 
-Git é essencial para um desenvolvedor.
-
-- [Git para desenvolvedores Flutter](https://www.youtube.com/watch?v=Kx3M6XUpcFE)
-- [Trabalhando com FORKS no GIT e GITHUB!](https://www.youtube.com/watch?v=osE-7OXqFCI)
 
 ## Flutter Widget
 
