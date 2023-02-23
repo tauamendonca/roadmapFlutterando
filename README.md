@@ -32,9 +32,8 @@ Esteja você começando agora ou tendo já um mínimo de conhecimento sobre o qu
 
 Recomendamos primeiramente assistir [o vídeo abaixo](https://www.youtube.com/watch?v=BTENKdRVS2U) antes de iniciar, especialmente se você é uma pessoa novata na programação em geral.
 
-<!-- [![Código Fonte TV](https://img.youtube.com/vi/BTENKdRVS2U/maxresdefault.jpg)](https://www.youtube.com/watch?v=BTENKdRVS2U) -->
+[![Código Fonte TV](https://markdown-videos.deta.dev/youtube/BTENKdRVS2U)](https://www.youtube.com/watch?v=BTENKdRVS2U)
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=BTENKdRVS2U" frameborder="0" allowfullscreen></iframe>
 
 </p>
 
@@ -70,7 +69,7 @@ No entanto, para trabalhar com Macs e Iphones você deverá utilizar o XCode e u
 
 <!-- TODO: Fazer um checklist com os links de instalação e um passo a passo simples  -->
 
-1) Instale o Dart através das instruções 
+1) Instale o Dart através das instruções
 
 </p>
 
