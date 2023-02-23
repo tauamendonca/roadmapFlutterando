@@ -32,13 +32,11 @@ Esteja você começando agora ou tendo já um mínimo de conhecimento sobre o qu
 
 Recomendamos primeiramente assistir [o vídeo abaixo](https://www.youtube.com/watch?v=BTENKdRVS2U) antes de iniciar, especialmente se você é uma pessoa novata na programação em geral.
 
-[![Código Fonte TV](https://img.youtube.com/vi/BTENKdRVS2U/maxresdefault.jpg)](https://www.youtube.com/watch?v=BTENKdRVS2U)
+<!-- [![Código Fonte TV](https://img.youtube.com/vi/BTENKdRVS2U/maxresdefault.jpg)](https://www.youtube.com/watch?v=BTENKdRVS2U) -->
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=BTENKdRVS2U" frameborder="0" allowfullscreen></iframe>
 
 </p>
-
-</details>
-
-<br>
 
 ## `3.1` Ambiente de Trabalho
 
@@ -70,7 +68,9 @@ No entanto, para trabalhar com Macs e Iphones você deverá utilizar o XCode e u
 
 ### `3.1.2` Instalando Dart e Flutter na sua máquina
 
-<!-- Fazer um checklist com os links de instalação e um passo a passo simples  -->
+<!-- TODO: Fazer um checklist com os links de instalação e um passo a passo simples  -->
+
+1) Instale o Dart através das instruções 
 
 </p>
 
@@ -91,7 +91,7 @@ Nessa etapa não é necessário saber nenhuma linguagem.
 
 <br>
 
-## `2.3` Orientação a Objetos (POO)
+## `3.3` Orientação a Objetos (POO)
 
 Esse é o paradgma mais utilizado no Flutter. Por isso devemos conhecer o básico para iniciar nesse framework.
 
@@ -103,7 +103,13 @@ Não tenha medo de apren-der 2 ou 3 linguagens a mais para dominar esse paradgma
 - [Programação Orientada a Objetos (POO)](https://www.youtube.com/watch?v=QY0Kdg83orY)
 - [Curso de programação oriendada a objetos](https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
 
-## `6.` Dart
+
+</details>
+
+<br>
+
+
+## `4.` Dart
 
 Dart é a [linguagem de programação]() por trás do [framework]() Flutter.
 
