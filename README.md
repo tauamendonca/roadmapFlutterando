@@ -1,6 +1,6 @@
 # Flutter Roadmap 2023
 
-<i>V. 2.0.0 - Janeiro 2023</i>
+<i>V. 2.3.0 - Março 2023 - por Jacob Moura e Tauã Mendonça</i>
 ### Powered by 
 
 <img src='https://miro.medium.com/max/1134/1*CTBedeQiWb4-75peW1IF3w.png' height=60>
@@ -11,23 +11,26 @@
 <details open><Summary><i>[Ocultar o conteúdo]</i></Summary>
 </p>
 
-O roadmap é uma trilha orientativa com o objetivo de `sugerir um caminho para os iniciantes em Dart e Flutter` a partir do conhecimento da comunidade de conteúdos gratuitos disponíveis na internet.  
+O roadmap, nascido no início de 2022, é uma trilha orientativa com o objetivo de `sugerir um caminho para os iniciantes em Dart e Flutter` a partir do conhecimento da comunidade de conteúdos gratuitos disponíveis na internet.  
 
-É necessário observar que somente utilizar o Roadmap `NÃO` substitui as documentações e cursos, ou mesmo pesquisa e estudo individual. Seu intuito é somente guiar.  
+É necessário observar que somente utilizar o Roadmap `NÃO` substitui a documentação do Dart ou do Flutter e é complementar a ela e a cursos, sejam gratuitos ou pagos. 
 
-Dito isto, a Flutterando traz essas recomendações e sugere sua utilização em conjunto com a documentação do Dart e do Flutter, por ser um caminho comprovado, que forma e já formou profissionais da área com grande sucesso.
+O intuito é somente guiar os novos (e as vezes até antigos) devs que queiram aprender o framework Flutter a linguagem Dart.
+
+A Flutterando  ser um caminho comprovado, que forma e já formou profissionais da área com grande sucesso.
 </p>
 
 </details>
 
 <br>
 
-## **`2.` O Roadmap em imagem**
+<!-- ## **`2.` O Roadmap em imagem** -->
 
-## **`3.` Preparando suas bases**
+## **`2.` Preparando suas bases**
 
 <details><Summary><i>[Ver o conteúdo]</i></Summary>
 </p>
+
 Esteja você começando agora ou tendo já um mínimo de conhecimento sobre o que é programação, ainda assim é importante trabalhar seus conhecimentos básicos. 
 
 Recomendamos primeiramente assistir [o vídeo abaixo](https://www.youtube.com/watch?v=BTENKdRVS2U) antes de iniciar, especialmente se você é uma pessoa novata na programação em geral.
@@ -37,18 +40,18 @@ Recomendamos primeiramente assistir [o vídeo abaixo](https://www.youtube.com/wa
 
 </p>
 
-## `3.1` Ambiente de Trabalho
+## `2.1` Ambiente de Trabalho
 
 <details><Summary><i>[Ver o conteúdo]</i></Summary>
 </p>
 
-### `3.1.1` O que é uma IDE?
+### `2.1.1` O que é uma IDE?
 A IDE é onde você irá fazer seus códigos. Para entender um pouco mais sobre o que é uma IDE dê uma olhada neste [artigo da Codeesh](https://coodesh.com/blog/dicionario/o-que-e-ide/).
 
-#### **IDEs online prontas para uso:**
+#### | *IDEs online prontas para uso:* |
 Algumas IDEs online podem te ajudar a começar seus estudos sem necessitar instalar as ferramentas necessárias para desenvolver na sua máquina. São elas: 
 
-<details><Summary>Dartpad</Summary>
+<details><Summary><i>Dartpad</i></Summary>
 Recomendamos começar com a IDE online [Dartpad](https://www.dartpad.dev), por ser acessível em quase qualquer navegador e ter toda a capacidade necessária para seu início de estudos. Ela é capaz de trabalhar com Dart E com Flutter, embora algumas bibliotecas (códigos externos) não estejam disponíveis para uso. 
 </details>
 
@@ -56,7 +59,9 @@ Recomendamos começar com a IDE online [Dartpad](https://www.dartpad.dev), por s
 Outra IDE online útil no início e depois é o [Zapp.run](https://zapp.run), similar a uma mistura do Dartpad com o Visual Studio Code, e capaz de emular seus projetos Flutter. No entanto, perceba que ele é melhor utilizado com uma boa conexão à internet e tem algumas limitações se comparados a uma IDE mais completa como o Visual Studio Code. 
 </details>
 
-#### **IDE Recomendada**
+<br>
+
+#### < *IDE Recomendada* >
 Para trabalhar no dia a dia com desenvolvimento geral (Android, Web, Linux, Windows, embarcados - Arm, etc) recomendamos o 
 [Visual Studio Code](https://code.visualstudio.com/) - por ser mais leve e ter diversos recursos extras que podem auxiliar no desenvolvimento, além de ter grande liberdade para personalização. 
 
@@ -65,11 +70,33 @@ No entanto, para trabalhar com Macs e Iphones você deverá utilizar o XCode e u
 
 <br>
 
-### `3.1.2` Instalando Dart e Flutter na sua máquina
+### `2.1.2` Instalando Dart e Flutter na sua máquina
 
 <!-- TODO: Fazer um checklist com os links de instalação e um passo a passo simples  -->
 
-1) Instale o Dart através das instruções
+```
+0) Instale o Git
+
+1) Instale o Dart
+1.1) Coloque o diretório do dart nas variáveis de ambiente
+
+2) Instale o Android Studio
+2.1) Use o Android Studio para instalar o android sdk e android cli
+2.2 A) (Opcional) instale o Java SDK separadamente (as instalações mais recentes do Android Studio já vem com o Java SDK junto)
+2.2 B) (Não opcional) Coloque o JAVA_HOME nas suas variáveis de ambiente
+
+3) Instale o Flutter
+3.1) Coloque o diretório do Flutter em suas variáveis de ambiente
+
+4) Instale o VSCode
+4.1) Instale as extensões Flutter e Dart da Google para o VSCode
+
+5) (Opcional) Instale as Ferramentas de Build para Visual Studio (não confundir com o próprio Visual Studio ou com o VSCode) para trabalhar com Windows
+
+(Opcional) Utilize o Android Studio para emulação, instale um dispositivo emulado através do assistente dele
+
+(Opcional) Instale a extensão Material Icons Theme, para melhor visualizar suas pastas e dê uma olhada nas seguintes extensões: GitLens e ErrorLens, especialmente esta última pois aponta a linha onde está ocorrendo o erro de código. 
+```
 
 </p>
 
@@ -77,7 +104,7 @@ No entanto, para trabalhar com Macs e Iphones você deverá utilizar o XCode e u
 
 <br>
 
-## `3.2` Lógica de Programação
+## `2.2` Lógica de Programação
 
 Precisamos entender como criar algorítmos, por tanto, antes de realmente colocar a mão no código, é importante estudar um pouco sobre Lógica de programação.
 
@@ -86,29 +113,40 @@ Nessa etapa não é necessário saber nenhuma linguagem.
 - [Curso de lógica de programação](https://www.youtube.com/watch?v=8mei6uVttho&list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV).
 - [Curso Lógica de Programação Completo 2021](https://www.youtube.com/watch?v=iF2MdbrTiBM)
 
-
-
 <br>
 
-## `3.3` Orientação a Objetos (POO)
+## `2.3` Programação Orientada a Objetos (POO)
 
-Esse é o paradgma mais utilizado no Flutter. Por isso devemos conhecer o básico para iniciar nesse framework.
+O Flutter usa o Dart de forma declarativa. Isso significa que o desenvolvedor usa linguagem de programação para desenhar telas em vez de linguagem de marcação como HTML, XML ou XAML.
+Por esse motivo é recomendado que o desenvolvedor já domine os conceitos de P.O.O. e Lógica de programação.
 
-Não tenha medo de apren-der 2 ou 3 linguagens a mais para dominar esse paradgma.
+Não tenha medo de aprender 2 ou 3 linguagens a mais para dominar esse [paradigma de programação]().
 
-É recomendado aprender um pouco sobre o Java, pois é uma linguagem que utiliza exclusivamente a POO, forçando-o a entender toda a base desse paradgma.
+É inclusive recomendado aprender um pouco sobre o Java, pois é uma linguagem que utiliza exclusivamente a POO, forçando-o a entender toda a base desse paradigma. Também é uma linguagem utilizada para aplicações nativas em Android, entre outras, então continuará sendo um conhecimento interessante para sua jornada.  
 
 - [Programação Orientada a Objetos (POO) - Deivid Willyan ](https://www.youtube.com/watch?v=STdkaNVUKYs)
 - [Programação Orientada a Objetos (POO)](https://www.youtube.com/watch?v=QY0Kdg83orY)
 - [Curso de programação oriendada a objetos](https://www.youtube.com/watch?v=KlIL63MeyMY&list=PLHz_AreHm4dkqe2aR0tQK74m8SFe-aGsY)
 
+<br>
 
+## `2.4` GIT
+
+Git é um sistema de controle de versões que pode ser utilizado para registrar o histórico de edições de qualquer tipo de arquivo. Pense em algo como um "Save Point" em um jogo ou como o botão Salvar, mas guardando o que foi modificado e por quem foi. O conteúdo abaixo irá ajudá-lo a compreender melhor o que é e como usá-lo. 
+Consideramos importante saber isto antes de começar para que você possa utilizá-lo durante seus estudos.
+
+- [Git para desenvolvedores Flutter](https://www.youtube.com/watch?v=Kx3M6XUpcFE)
+- [Trabalhando com FORKS no GIT e GITHUB!](https://www.youtube.com/watch?v=osE-7OXqFCI)
+
+P.S.: Não confunda Git com Github ou Gitlab. Esses dois últimos são - de forma básica - plataformas onde você pode utilizar Git para guardar seus projetos.
 </details>
 
 <br>
 
+## **`3.` Dart**
 
-## `4.` Dart
+<details><Summary><i>[Ver o conteúdo]</i></Summary>
+</p>
 
 Dart é a [linguagem de programação]() por trás do [framework]() Flutter.
 
@@ -139,47 +177,20 @@ https://www.youtube.com/watch?v=NrO0CJCbYLA
 
 Não pule essa etapa, pois conhecer a base do Dart será o principal diferencial para desenvolver em Flutter.
 
-# Flutter
 
-Após seguir os passos da sessão anterior, chegou a hora de usar as ferramentas do SDK. Se não conhece o Flutter, assista [ESTE VÍDEO](https://www.youtube.com/watch?v=vIP2iLFjEIk&t=66s).
+</details>
 
-## Cursos gratuitos
+<br>
 
-- [Como aprender Flutter em 2022?](https://www.youtube.com/watch?v=85eg7P1se4Y)
-- [Flutter Curso 2022 (Flutterando)](https://www.youtube.com/playlist?list=PLlBnICoI-g-fuy5jZiCufhFip1BlBswI7)
-- [Catálogo de Widgets](https://docs.flutter.dev/reference/widgets)
+## **`4.` Flutter**
 
-## Cursos pagos
+<details><Summary><i>[Ver o conteúdo]</i></Summary>
+</p>
 
-- [Flutter para iniciantes](https://masterclass.flutterando.com.br/flutter-iniciante-2)
-- [Curso de Flutter (COD3R)](https://flutterando.page.link/rniX)
+Após seguir os passos da sessão anterior, chegou a hora de usar as ferramentas do SDK. Se não conhece o Flutter, leia [ESTE ARTIGO](https://www.freecodecamp.org/portuguese/news/o-que-e-o-flutter-e-por-que-voce-deve-conhece-lo/).
 
-
-## Lógica de programação
-
-## POO e 
-
-O Flutter usa o Dart de forma declarativa. Isso significa que o desenvolvedor usa linguagem de programação para desenhar telas em vez de linguagem de marcação como HTML, XML ou XAML.
-Por esse motivo é recomendado que o desenvolvedor já domine os conceitos de POO e Lógica de programação.
-
-Retorne a sessão [Escrever Códigos](#escrever-códigos) para dicas de cursos sobre esses dois assuntos.
-
-## 5. `GIT`
-
-Git é um sistema de controle de versões que pode ser utilizado para registrar o histórico de edições de qualquer tipo de arquivo. Pense em algo como um "Save Point" em um jogo ou como o botão Salvar, mas guardando o que foi modificado e por quem foi. O conteúdo abaixo irá ajudá-lo a compreender melhor o que é e como usá-lo. 
-Consideramos importante saber isto antes de começar para que você possa utilizá-lo durante seus estudos.
-
-- [Git para desenvolvedores Flutter](https://www.youtube.com/watch?v=Kx3M6XUpcFE)
-- [Trabalhando com FORKS no GIT e GITHUB!](https://www.youtube.com/watch?v=osE-7OXqFCI)
-
-P.S.: Não confunda Git com Github ou Gitlab. Esses dois últimos são - de forma básica - plataformas onde você pode utilizar Git para guardar seus projetos.
-
-## Sintaxe do Dart
-
-Antes de usar o Flutter, o desenvolvedor deverá aprender pelomenos a sintaxe básica do Dart.
-
-[Nesta sessão](#o-dart) foi sugerido alguns cursos pagos e gratuitos para uma imersão na linguagem Dart.
-
+Leu? Já conhecia o Flutter? Por onde você pode começar?
+Vamos lá para o roadmap em si. Ao final, colocaremos alguns links de cursos conhecidos e recomendados, alguns gratuitos e alguns pagos. O Flutter e o Dart tem um grande número de criadores de conteúdo que disponibilizam muito material e é difícil manter esse artigo sempre atualizado, então se conhece alguém com um bom conteúdo, pode mandar sua sugestão pelo github para nós.  
 
 
 ## Flutter Widget
@@ -220,25 +231,17 @@ Algumas dicas sobre isso:
 - [Formulários e validação no Flutter](https://www.youtube.com/watch?v=q5pcOL-lZ4I)
 - [Flutter Curso 2022 #22 - Máscara](https://www.youtube.com/watch?v=xSa3S-TJJww)
 
+
 ### Cursos para Membros
 
 - [FLUTTER AULÃO - Formulários do jeito certo](https://www.youtube.com/watch?v=yjKvlMAtpC4)
 - [Tudo sobre Máscaras](https://www.youtube.com/watch?v=sjQLmibDEu4)
-
-## Aprenda a fazer animações
-
-### Cursos gratuito
-
-### Cursos para Membros
-
 - [Tudo sobre animações no Flutter](https://www.youtube.com/watch?v=XM-8UTkFr4c&t=3108s)
 
 ## Consumo de APIs externas
-
 ### Cursos para Membros
 
 - [AULÃO: Consumo de APIs (Flutterando)](https://www.youtube.com/watch?v=PUQEd7xRldM)
-
 ### Cursos gratuito
 
 - [Curso de Flutter #40 - [API] Consumindo API externa (http))](https://www.youtube.com/watch?v=vjeK_oc5cXQ)
@@ -309,3 +312,17 @@ A arquitetura de um projeto define a vida útil do mesmo. Todo app tem alguma ar
 ## Conhecimento sobre InheritedWidget
 
 - [Flutter Curso 2022 #12 - Primeira e última aula sobre InheritedWidget](https://www.youtube.com/watch?v=aTbuuvSq-Gs)
+
+
+
+## Cursos gratuitos
+
+- [Como aprender Flutter em 2022?](https://www.youtube.com/watch?v=85eg7P1se4Y)
+- [Flutter Curso 2022 (Flutterando)](https://www.youtube.com/playlist?list=PLlBnICoI-g-fuy5jZiCufhFip1BlBswI7)
+- [Catálogo de Widgets](https://docs.flutter.dev/reference/widgets)
+
+## Cursos pagos
+
+- [Flutter para iniciantes](https://masterclass.flutterando.com.br/flutter-iniciante-2)
+- [Curso de Flutter (COD3R)](https://flutterando.page.link/rniX)
+
